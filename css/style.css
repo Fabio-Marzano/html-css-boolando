@@ -1,14 +1,23 @@
 * {
-    margin 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: orange;
-    padding: 15px 0px;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
+header {
+    background-color: orange;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+main {
+    padding-top: 70px;
+}
 /*LAYOUT CLASSES*/
 .container {
     max-width: 1200px;
@@ -22,18 +31,56 @@ header {
 }
 
 .col-33 {
-    width: calc(100% /3);
+    width: calc(100% / 3);
 }
 
 .content-header {
     margin: 10px;
-    height: 50px;
-    background-color: red;
-    border: 1px solid black
 }
 
 .content {
     margin: 10px;
-    height: 30px;
+    height: 300px;
     background-color: red;
+    border: 1px solid black;
+}
+
+/* PAGE STYLES */
+
+.list-unstyled {
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+.list-unstyled li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.content-header img {
+    width: 200px;
+}
+
+.content-header i {
+    color: white;
+    margin: 0px 5px;
+    padding-top: 10px;
+}
+
+/*UTILITY CLASSES*/
+
+.text-center {
+    text-align: center;
+
+}
+
+.text-right {
+    text-align: right;
 }
