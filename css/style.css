@@ -92,6 +92,10 @@ main {
     right: 0;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .badge {
     padding: 5px 10px;
     font-weight: 700px;
@@ -104,6 +108,8 @@ main {
     left: 0;
     bottom: 20px;
 }
+
+
 
 .red-badge {
     background-color: red;
