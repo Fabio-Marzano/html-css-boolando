@@ -38,11 +38,35 @@ main {
     margin: 10px;
 }
 
+.images {
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+}
+
+.visible-image {
+    display: block;
+}
+
+.hidden-image {
+    display: none;
+}
+
 .content {
     margin: 10px;
-    height: 300px;
-    background-color: red;
-    border: 1px solid black;
+    
+}
+
+.brand-name {
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+.article-name {
+    text-transform: uppercase;
 }
 
 /* PAGE STYLES */
@@ -51,6 +75,15 @@ main {
     list-style-type: none;
     padding-top: 10px;
 
+}
+
+.text-red {
+    color: red;
+    margin-right: 10px;
+}
+
+.text-deleted {
+    text-decoration: line-through;
 }
 
 .list-unstyled li {
